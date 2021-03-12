@@ -1,0 +1,198 @@
+.user-icon {
+  width: 18px;
+  height: 22px;
+  background-image: url("https://www.lcwaikiki.com/Resource/Images/user-icon.svg");
+  display: block;
+  margin: 0 auto;
+  margin-top: 0px;
+  background-repeat: no-repeat;
+}
+
+.icon-text {
+  font-size: 9px;
+  white-space: nowrap;
+}
+
+.bndl {
+  background-image: url("../assets/sprite.svg");
+
+  &-like {
+    display: block;
+    margin: 0 auto;
+    margin-top: 0px;
+    width: 23px !important;
+    height: 21px !important;
+    background-position: 0 -468px !important;
+    background-repeat: no-repeat !important;
+  }
+
+  &-bag {
+    background-position: 0 -644px !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    margin: 0px auto;
+    width: 17px !important;
+    height: 22px !important;
+  }
+
+  &-kamyon {
+    background-position: 0 -449px !important;
+    background-repeat: no-repeat !important;
+    margin-right: 7px;
+    width: 32px !important;
+    height: 19px !important;
+  }
+}
+
+.ico-count {
+  position: relative;
+  display: block;
+  left: 13px;
+  width: 16px;
+  height: 16px;
+  line-height: 10px;
+  border-radius: 150px;
+  background-color: #ff9280;
+  border: 2px solid #ff9280;
+  text-align: center;
+  top: 3px;
+  color: #fff;
+  font-size: 10px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+  font-style: normal;
+}
+
+.lcw-logo {
+  display: block;
+  width: 222px;
+  height: 32px;
+}
+
+.mobil-logo {
+  margin-top: 10px;
+  width: 107px;
+  height: 14px;
+}
+
+.search-input {
+  width: 30vw;
+  height: 40px;
+
+  &-mobile {
+    width: 95vw;
+  }
+}
+
+.category {
+  float: left;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 2px 0;
+
+  a {
+    padding: 10px 14px;
+    font-size: 18px !important;
+    color: #555;
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+  &-outlet {
+    a {
+      color: #f76262 !important;
+    }
+  }
+}
+
+.mobile-menu-item {
+  border-bottom: 1px solid #f8f8f9;
+  word-wrap: break-word;
+  margin-top: -1px;
+  font-size: 16px;
+  position: relative;
+  padding: 20px 10px 10px 10px;
+  color: #555;
+  text-align: left;
+
+  &::after {
+    content: ">";
+    position: absolute;
+    right: 10px;
+  }
+}
+
+.header-shadow {
+  -webkit-box-shadow: 0px 11px 29px -17px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 0px 11px 29px -17px rgba(0, 0, 0, 0.61);
+  box-shadow: 0px 11px 29px -17px rgba(0, 0, 0, 0.61);
+}
+.order-track {
+  font-size: 12px !important;
+  color: #193db0 !important;
+  display: flex;
+  align-items: center;
+  padding: 0 !important;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.banner {
+  margin-bottom: 15px;
+}
+
+.banner-button {
+  border: 2px solid #302e2b !important;
+  color: #302e2b !important;
+  background-color: #fff !important;
+  margin: 10px !important;
+  min-width: 128px !important;
+  padding: 7px 25px 7px 25px !important;
+  font-weight: 700;
+
+  &:hover {
+    color: #fff !important;
+    background-color: #000 !important;
+    border-color: #000 !important;
+  }
+}
+
+.banner-header {
+  font-size: 1.625em !important;
+  font-weight: 700 !important;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.banner-text {
+  font-size: 1.125em;
+}
+
+.homepage-divider {
+  position: relative;
+  border-top: solid 1px #e2e2e2;
+  width: 100%;
+  height: 1px;
+  top: 50%;
+  margin-top: 25px;
+  z-index: 1;
+
+  span {
+    position: absolute;
+    background: #fff;
+    z-index: 5;
+    top: -18px;
+    padding: 0 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #302e2b;
+    max-width: 348px;
+    text-align: center;
+    font-size: 24px;
+
+    p {
+      font-weight: 600;
+    }
+  }
+}
