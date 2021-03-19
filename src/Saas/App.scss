@@ -74,15 +74,6 @@
   height: 14px;
 }
 
-.search-input {
-  width: 30vw;
-  height: 40px;
-
-  &-mobile {
-    width: 95vw;
-  }
-}
-
 .category {
   float: left;
   font-size: 14px;
@@ -118,6 +109,15 @@
     content: ">";
     position: absolute;
     right: 10px;
+  }
+}
+
+.mobile-hamburger {
+  margin-right: 0.2vw;
+  small {
+    position: absolute;
+    bottom: 5px;
+    font-size: 9px;
   }
 }
 

@@ -1,8 +1,10 @@
+import LazyLoad from 'react-lazyload';
+
 function Banner({ bURL, bAlt }) {
     return (
-        <div class="banner" >
-            <img class="w-full" src={bURL} alt={bAlt} />
-        </div>
+        <LazyLoad height={200} once  className="banner" >
+            <img className="w-full" src={bURL} alt={bAlt} />
+        </LazyLoad>
     )
 }
 

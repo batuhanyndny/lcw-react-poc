@@ -1,27 +1,29 @@
+import {Link} from 'react-router-dom';
+
 const HeaderIcons = () => {
     return (
         <div className="flex">
             <div className="mx-3">
-                <a href="#">
+                <Link to="/login">
                     <i className="user-icon"></i>
                     <p className="icon-text">Giris yap</p>
-                </a>
+                </Link>
             </div>
             <div className="mx-3">
-                <a href="#">
+                <Link to="/login">
                     <i className="bndl bndl-like">
                         <span className="ico-count">0</span>
                     </i>
                     <p className="icon-text">Favoriler</p>
-                </a>
+                </Link>
             </div>
             <div className="mx-3">
-                <a href="#">
+                <Link to="/login">
                     <i className="bndl bndl-bag">
                         <span className="ico-count">0</span>
                     </i>
                     <p className="icon-text">Sepetim</p>
-                </a>
+                </Link>
             </div>
         </div>
     )

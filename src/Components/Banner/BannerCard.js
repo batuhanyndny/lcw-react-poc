@@ -1,6 +1,8 @@
+import LazyLoad from 'react-lazyload';
+
 function BannerCard({ imgSrc, header, desc, linkText, linkURL }) {
     return (
-        <div>
+        <LazyLoad height={200} once >
             <div className="mb-5 px-4 text-center">
                 <div
                     className="rounded-lg h-64 overflow-hidden"
@@ -23,7 +25,7 @@ function BannerCard({ imgSrc, header, desc, linkText, linkURL }) {
                     </button>
                 </div>
             </div>
-        </div >
+        </LazyLoad>
     )
 }
 
